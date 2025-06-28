@@ -20,8 +20,13 @@ const Navbar = () => {
                         <button className="text-pink-400">Producct</button>
                         <div className = "hidden group-hover:flex flex-col absolute left-0 p-10 w-full bg-white z-20 text-black durtion-300">
                             <div className = "grid grid-cols-2 md:grid-cols-4 gap-5">
-                                <h3>Beauty Products</h3>
-                                <a href="">Makeup Kits</a>
+                                <div className="flex flex-col">
+                                    <h3 className="mb-4 text-2xl text-pink-400">Beauty Products</h3>
+                                    <a href="" className = "hover:underline hover:text-pink-400">Makeup Kits</a>
+                                    <a href="" className = "hover:underline hover:text-pink-400">Lotion</a>
+                                    <a href="" className = "hover:underline hover:text-pink-400">Body Wash</a>
+                                    <a href="" className = "hover:underline hover:text-pink-400">Face Pack</a>
+                                </div>
                             </div>
                         </div>
                     </div>
