@@ -10,18 +10,16 @@ const Navbar = () => {
             <div>
                 <ul className="flex gap-8 mr-16 text-[18px]">
              
-                        <li className="hover:text-pink-400 transition border-b border-white hover:border-pink-400 cursor-pointer">Home</li>
-                   
-                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Shop</li>
-                    
-                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Blogs</li>
-                 
-                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Pages</li>
-                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Produc</li>
-       
-                  
-                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Contact</li>
-                
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Shop</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white hover:border-pink-400 cursor-pointer">Home</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Blogs</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Pages</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Produc</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Contact</li>
+                    <div className="group">
+                        <button className="text-pink-400">Producct</button>
+                        <div className = "hidden group-hover:flex flex-col absolute left-0 p-10 w-full bg-white z-20 text-black durtion-300"></div>
+                    </div>
                 </ul>
             </div>
         </div>
