@@ -1,7 +1,7 @@
 const Navbar = () => {
     return(
-        <div className="sidenav">
-            <img src="" alt="logo"  className="logo"/>
+        <div className="sidenav active">
+            <img src="" alt="logo"  className="logo" />
             <ul>
                 <li><a href="/">Home</a></li>
             </ul>
