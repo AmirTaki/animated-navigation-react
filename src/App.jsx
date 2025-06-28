@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <header>
-        Header
+         <CiMenuBurger />
       </header>
-      <CiMenuBurger />
+     
       <Navbar />
   
     </>
