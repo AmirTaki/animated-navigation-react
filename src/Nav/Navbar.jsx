@@ -7,12 +7,12 @@ const Navbar = () => {
             </div>
             <div>
                 <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>Blogs</li>
-                    <li>Pages</li>
-                    <li>Produc</li>
-                    <li>Contact</li>
+                    <Link><li>Home</li></Link>
+                    <Link><li>Shop</li></Link>
+                    <Link><li>Blogs</li></Link>
+                    <Link><li>Pages</li></Link>
+                    <Link><li>Produc</li></Link>
+                    <Link><li>Contact</li></Link>                    
                 </ul>
             </div>
         </div>
