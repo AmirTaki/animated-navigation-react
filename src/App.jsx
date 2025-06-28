@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import Navbar from './components/Navbar'
 import { CiMenuBurger } from "react-icons/ci";
-import { BrowserRouter, Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home"
 import About from "./pages/About"
 
@@ -11,19 +11,21 @@ function App() {
   const [showNav, setShowNav]  = useState(false);
 
   return (
-    <>
-      <Router>
+
+
+        <Routes>
         <header>
-          <CiMenuBurger  onClick={()=> setShowNav(!showNav)}/>
+            <CiMenuBurger  onClick={()=> setShowNav(!showNav)}/>
         </header>
         <Navbar show = {showNav} />
         <div className='main'>
-          <Route path = "/" extact= {true} Component={Home}></Route>
-          <Route path = "/" extact= {true} Component={About}></Route>
-      
+          <Route   path = "/Home"  exact = {true} element = {<Home />}  > </Route>
+          <Route path = "/About" element ={ <About />} > </Route>
         </div>
-      </Router>
-    </>
+
+        </Routes>
+   
+
   )
 }
 
