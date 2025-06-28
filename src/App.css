@@ -19,3 +19,12 @@ header{
     padding: 0 30px;
     transition: all 1s;
 }
+
+ul {
+    padding: 0;
+}
+
+
+ul li {
+    list-style-type:none ;
+}
