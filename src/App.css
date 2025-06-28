@@ -16,12 +16,18 @@ header{
     background: #011627;
     position: absolute;
     height: 95vh;
+    left: -100%;
     padding: 0 30px;
     transition: all 1s;
 }
 
+.sidenav.active {
+    left:0
+}
+
+
 .logo {
-    width: 50px;
+    width: 60px;
 }
 
 
