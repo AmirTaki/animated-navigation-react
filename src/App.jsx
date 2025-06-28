@@ -11,7 +11,8 @@ function App() {
       <header>
         <CiMenuBurger  onClick={()=> setShowNav(!showNav)}/>
       </header>
-      {showNav && <Navbar /> }
+      {/* {showNav && <Navbar /> } */}
+      <Navbar show = {showNav} />
   
     </>
   )

@@ -1,6 +1,6 @@
-const Navbar = () => {
+const Navbar = ({show}) => {
     return(
-        <div className="sidenav active">
+        <div className={show ? "sidenav active" : "sidenav"} >
             <img src="" alt="logo"  className="logo" />
             <ul>
                 <li><a href="/">Home</a></li>
