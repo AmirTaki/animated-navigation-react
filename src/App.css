@@ -5,3 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
     color : #eaecef
 }
+
+header{
+    padding: 30px;
+    background: #011627;
+    height: 40px;
+}
