@@ -34,3 +34,8 @@ ul li a {
     font-size: 16px;
     color: #eaecef;
 }
+
+ul li a:hover, 
+ul li a.active {
+    background: #172b4d;
+}
