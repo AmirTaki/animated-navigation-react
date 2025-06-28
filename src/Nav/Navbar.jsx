@@ -9,24 +9,19 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="flex gap-8 mr-16 text-[18px]">
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Home</li>
-                    </Link>
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Shop</li>
-                    </Link>
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Blogs</li>
-                    </Link>
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Pages</li>
-                    </Link>
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Produc</li>
-                    </Link>
-                    <Link to = "/">
-                        <li className="hover:text-pink-400 transition border border-white hover-pink-400 cursor-pointer">Contact</li>
-                    </Link>                    
+             
+                        <li className="hover:text-pink-400 transition border-b border-white hover:border-pink-400 cursor-pointer">Home</li>
+                   
+                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Shop</li>
+                    
+                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Blogs</li>
+                 
+                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Pages</li>
+                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Produc</li>
+       
+                  
+                        <li className="hover:text-pink-400 transition border-b border-white  hover:border-pink-400 cursor-pointer">Contact</li>
+                
                 </ul>
             </div>
         </div>
