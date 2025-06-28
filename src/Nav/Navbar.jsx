@@ -14,11 +14,16 @@ const Navbar = () => {
                         <li className="hover:text-pink-400 transition border-b-2 border-white hover:border-pink-400 cursor-pointer">Home</li>
                         <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Blogs</li>
                         <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Pages</li>
-                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Produc</li>
+                        <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Product</li>
                         <li className="hover:text-pink-400 transition border-b-2 border-white  hover:border-pink-400 cursor-pointer">Contact</li>
                     <div className="group">
                         <button className="text-pink-400">Producct</button>
-                        <div className = "hidden group-hover:flex flex-col absolute left-0 p-10 w-full bg-white z-20 text-black durtion-300"></div>
+                        <div className = "hidden group-hover:flex flex-col absolute left-0 p-10 w-full bg-white z-20 text-black durtion-300">
+                            <div className = "grid grid-cols-2 md:grid-cols-4 gap-5">
+                                <h3>Beauty Products</h3>
+                                <a href="">Makeup Kits</a>
+                            </div>
+                        </div>
                     </div>
                 </ul>
             </div>
