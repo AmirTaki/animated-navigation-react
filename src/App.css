@@ -11,3 +11,11 @@ header{
     background: #011627;
     height: 40px;
 }
+.sidenav {
+    width: 240px;
+    background: #011627;
+    position: absolute;
+    height: 95vh;
+    padding: 0 30px;
+    transition: all 1s;
+}
