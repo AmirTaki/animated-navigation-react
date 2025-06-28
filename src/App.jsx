@@ -5,14 +5,13 @@ import Navbar from './components/Navbar'
 import { CiMenuBurger } from "react-icons/ci";
 function App() {
   const [showNav, setShowNav]  = useState(false);
-  
+
   return (
     <>
       <header>
-         <CiMenuBurger />
+        <CiMenuBurger  onClick={()=> setShowNav(!showNav)}/>
       </header>
-     
-      <Navbar />
+      {showNav && <Navbar /> }
   
     </>
   )
