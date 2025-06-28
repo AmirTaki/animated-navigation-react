@@ -1,8 +1,12 @@
 const Navbar = () => {
     return (
-        <>
-            Navbar
-        </>
+      <nav>
+        <div>
+            <div>
+                <h2>Beauty</h2>
+            </div>
+        </div>
+      </nav>
     )
 }
 
