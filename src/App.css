@@ -20,6 +20,11 @@ header{
     transition: all 1s;
 }
 
+.logo {
+    width: 50px;
+}
+
+
 ul {
     padding: 0;
 }
