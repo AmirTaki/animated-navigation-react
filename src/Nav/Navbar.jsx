@@ -1,7 +1,8 @@
+
 const Navbar = () => {
     return (
-      <nav>
-        <div>
+      <nav className = "z-50">
+        <div className="h-10vh flex justify-between lg:py-5 px-20 py-20 border-b">
             <div>
                 <h2>Beauty</h2>
             </div>
